@@ -9,7 +9,7 @@
   <Identity
     Name="67cf8741-ec6b-416c-b4ca-612c75f642a0"
     Publisher="CN=emil.kalchev"
-    Version="1.0.0.0" />
+    Version="1.0.31.0" />
 
   <Properties>
     <DisplayName>OfficeSuiteInstaller</DisplayName>
@@ -32,7 +32,7 @@
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
         DisplayName="OfficeSuiteInstaller"
-        Description="OfficeSuiteInstaller"
+        Description="OfficeSuite MSIX Proof of Concept"
         BackgroundColor="transparent"
         Square150x150Logo="Images\Square150x150Logo.png"
         Square44x44Logo="Images\Square44x44Logo.png">

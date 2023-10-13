@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBlock FontSize="38 " Text="Documents Application" />
+        <TextBlock FontSize="38 " Text="{Binding InfoText}" />
     </Grid>
 </Window>

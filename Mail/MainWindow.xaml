@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBlock FontSize="38 " Text="Mail Application" />
+        <DockPanel>
+            <TextBlock DockPanel.Dock="Top" FontSize="38 " Text="{Binding InfoText}" />
+            <Button DockPanel.Dock="Bottom" FontSize="25" Height="50" Content="Start AutoUpdater" Click="Button_Click" />
+        </DockPanel>
     </Grid>
 </Window>
